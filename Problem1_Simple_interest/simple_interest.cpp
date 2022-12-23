@@ -1,5 +1,4 @@
-// 1.Write a programto accept principle, rate of interest and time. Calculate simple interest and display the same
-
+// 1.Write a programto accept principle, rate of interest and time. Calculate simple interest and display the
 #include <iostream>
 
 int main()
