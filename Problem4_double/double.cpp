@@ -9,9 +9,8 @@ int main()
     std::cout << "Enter a double value :" << std::endl;
     std::cin >> number;
 
-    fractionalValue = number % 1;
-    wholeValue = number - fractionalValue;
-    std::cout << "original value :" << number << std::endl;
+    wholeValue = int(number);
+    fractionalValue = number - wholeValue;
     std::cout << "whole value :" << wholeValue << std::endl;
     std::cout << "Fractional value :" << fractionalValue << std::endl;
 
